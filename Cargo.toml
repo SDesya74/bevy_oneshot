@@ -1,6 +1,6 @@
 [package]
 name = "bevy_oneshot"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["SDesya74 <sdesya74@gmail.com>"]
 description = "Simple ohe-shot systems for Bevy"
