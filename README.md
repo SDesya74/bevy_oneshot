@@ -10,9 +10,9 @@ Naive implementation of one-shot systems for Bevy
 
 The library is made mainly for the convenience of working with the GUI. Remember that feeling when you created a system that creates GUI with a couple of input parameters? Nothing foretold trouble, but then the first button appears in the interface, the processing of which adds a few arguments to the system. The second button needed a resource, the third needed a query. After the fourth button you get a clippy::too_many_arguments warn... Pretty frustrating, huh?
 
-With bevy_oneshot you can put all the arguments a particular button needs into a separate system, or even not write a system at all, by making a lambda, which greatly reduces the amount of unnecessary stuff in the system scope.
+With `bevy_oneshot` you can put all the arguments a particular button needs into a separate system, or even not write a system at all, by making a lambda, which greatly reduces the amount of unnecessary stuff in the system scope.
 
-I really hope oneshot systems will be introduced in Bevy soon and this crate will become irrelevant.
+I really hope one-shot systems will be introduced in Bevy soon and this crate will become irrelevant.
 
 ## Installation
 
