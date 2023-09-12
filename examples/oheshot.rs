@@ -19,6 +19,6 @@ fn some_system(mut commands: Commands) {
 fn main() {
     App::new()
         .add_plugins(DefaultPlugins)
-        .add_startup_system(some_system)
+        .add_systems(Startup, some_system)
         .run();
 }
