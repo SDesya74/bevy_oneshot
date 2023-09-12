@@ -1,10 +1,10 @@
 # bevy_oneshot
 
-[![Crates.io](https://img.shields.io/crates/v/bevy_oheshot)](https://crates.io/crates/bevy_oneshot)
+[![Crates.io](https://img.shields.io/crates/v/bevy_oneshot)](https://crates.io/crates/bevy_oneshot)
 ![Crates.io](https://img.shields.io/crates/l/bevy_oneshot)
 ![docs.rs](https://img.shields.io/docsrs/bevy_oneshot)
 
-Naive implementation of one-shot systems for Bevy
+Naive implementation of one-shot systems for [Bevy](https://bevyengine.org/).
 
 ## Why?
 
