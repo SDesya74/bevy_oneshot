@@ -24,7 +24,7 @@ or add this to your `Cargo.toml`
 
 ```toml
 [dependencies]
-bevy_oheshot = "0.1"
+bevy_oheshot = "0.2"
 ```
 
 ## Usage
@@ -55,6 +55,13 @@ fn main() {
         .run();
 }
 ```
+
+## Compatibility
+
+| Bevy Version | Plugin Version |
+| :----------: | :------------: |
+|    `0.10`    | `0.1.0-0.1.1`  |
+|    `0.11`    |    `0.2.0`     |
 
 ## Contributing
 

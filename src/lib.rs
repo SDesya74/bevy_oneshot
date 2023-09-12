@@ -37,7 +37,7 @@ impl<'w, 's> CommandRunOnce<'w, 's> for Commands<'w, 's> {
             let mut system = IntoSystem::into_system(command);
             system.initialize(world);
             system.run(args, world);
-            system.apply_buffers(world);
+            system.apply_deferred(world);
         });
     }
 }
